@@ -34,7 +34,7 @@ int binarySearchRecursive(vector<int>& arr, int key, int start, int end){
 		} else if(key < arr[mid]){
 			return binarySearchRecursive(arr, key, start, mid - 1);
 		} else {
-			return binarySearchRecursive(arr, key, start + 1, end);
+			return binarySearchRecursive(arr, key, mid + 1, end);
 		}
 	}
 	return -1;

@@ -29,6 +29,8 @@ bool isSortedUsingIndex(int arr[], int i, int n){
 		return true;
 	}
 	return false;
+
+	
 }
 
 void solve(){
